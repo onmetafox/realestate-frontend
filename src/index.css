@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: "trap-black";
+  src: url("../public/fonts/Trap-Black.otf");
+}
+@font-face {
+  font-family: "trap-bold";
+  src: url("../public/fonts/Trap-Bold.otf");
+}
+@font-face {
+  font-family: "trap-light";
+  src: url("../public/fonts/Trap-Light.otf");
+}
+@font-face {
+  font-family: "trap";
+  src: url("../public/fonts/Trap-Regular.otf");
+}
+@font-face {
+  font-family: "trap-medium";
+  src: url("../public/fonts/Trap-Medium.otf");
+}
+@font-face {
+  font-family: "trap-semibold";
+  src: url("../public/fonts/Trap-SemiBold.otf");
+}
+
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background: #1A1A1A;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
