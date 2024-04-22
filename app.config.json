@@ -1,0 +1,12 @@
+{
+    "apps" : [
+      {
+        "name"      : "fe-realestate",
+        "script"    : "npx",
+        "interpreter": "none",
+        "args": "serve -p 8443 -s build"
+      }
+    ]
+  }
+  
+  
