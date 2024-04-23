@@ -113,27 +113,27 @@ export const Header: React.FC = () => {
                     </Button>
                 </div>
                 <div className='flex flex-col gap-5 justify-between items-center max-w-[375px] mx-auto mt-20'>
-                    <a href="/">
+                    <a href="/#section-intro">
                         <Typography color="white" variant='h2' className="mb-8 pr-4 font-normal">
                             Wallet Protocol
                         </Typography>
                     </a>
-                    <a href="/">
+                    <a href="/#section-unsiwap">
                         <Typography color="white" variant='h2' className="mb-8 pr-4 font-normal">
                             Buy Now
                         </Typography>
                     </a>
-                    <a href="/">
+                    <a href="/#section-roadmap">
                         <Typography color="white" variant='h2' className="mb-8 pr-4 font-normal">
                             Roadmap
                         </Typography>
                     </a>
-                    <a href="/">
+                    <a href="/#section-faq">
                         <Typography color="white" variant='h2' className="mb-8 pr-4 font-normal">
                             FAQ
                         </Typography>
                     </a>
-                    <a href="/">
+                    <a href="/#section-contact">
                         <Typography color="white" variant='h2' className="mb-8 pr-4 font-normal">
                             Contact
                         </Typography>

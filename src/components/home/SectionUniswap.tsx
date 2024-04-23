@@ -87,7 +87,9 @@ const SectionUniswap: React.FC = () => {
                 Please contact our team if you are having issues with this process and we will be happy to assist.
             </Typography>
 
-            <button
+            <a
+                href="https://app.uniswap.org/"
+                target='_blank'
                 className={
                     clsx(
                         'transition-all ease-in-out duration-150 rounded-full text-white h-[48px] px-10 cursor-pointer',
@@ -101,7 +103,7 @@ const SectionUniswap: React.FC = () => {
                     How to buy
                     <img src={ExternalArr}/>
                 </Typography>
-            </button>
+            </a>
         </div>
 
 

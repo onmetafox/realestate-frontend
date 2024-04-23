@@ -4,8 +4,8 @@ import clsx from 'clsx'
 
 import { Typography } from '@material-tailwind/react';
 
-import DeactiveArr from '../../assets/svgs/deactive-arr.svg';
-import ActiveArr from '../../assets/svgs/active-arr.svg';
+// import DeactiveArr from '../../assets/svgs/deactive-arr.svg';
+// import ActiveArr from '../../assets/svgs/active-arr.svg';
 
 
 const FaqList = [
@@ -22,8 +22,8 @@ const FaqList = [
         description: "Absolutely. Investors can confidently acquire 'E'state Coins, each backed by a specific property, ensuring immediate and tangible value."
     },
     {
-        title: "What is the Purpose of Mortgage Coin?",
-        description: "Mortgage Coin introduces the concept of fractional ownership of mortgage-backed securities, offering opportunities for passive income and diversification within the real estate market."
+        title: "What is the Purpose of Estate Coin?",
+        description: "Estate Coin introduces the concept of fractional ownership of estate-backed securities, offering opportunities for passive income and diversification within the real estate market."
     },
     {
         title: "How Transparent are Transactions?",
