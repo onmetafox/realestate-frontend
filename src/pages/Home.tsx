@@ -36,7 +36,5 @@ export const HomePage: React.FC = () => {
         <div className='mt-60  mx-auto -xl:max-w-[95%] max-w-[1200px]'>
             <Footer />
         </div>
-
-
     </div>
 }

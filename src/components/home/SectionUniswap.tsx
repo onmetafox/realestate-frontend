@@ -29,7 +29,7 @@ const Steps = [
 
 const SectionUniswap: React.FC = () => {
 
-    return <div className='mt-20 relative  bg-repeat' >
+    return <div id="section-unsiwap" className='mt-20 relative  bg-repeat' >
 
         <div className='bg-[url("/public/images/texture.svg")] absolute top-0 left-0 w-full h-full opacity-20'></div>
 

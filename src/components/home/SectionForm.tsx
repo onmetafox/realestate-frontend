@@ -39,7 +39,7 @@ const SectionForm: React.FC = () => {
 
     const handleOpen = useStayModalState(state => state.toggleOpen);
 
-    return <div className='pt-20 max-w-[1200px] relative mt-[70px]'>
+    return <div id="section-contact" className='pt-20 max-w-[1200px] relative mt-[70px]'>
 
         <img src={FormLogoSvg} className='absolute bottom-0 right-0 -2md:bottom-auto -2md:top-10' draggable={false} />
         <div className='w-full bg-gradient-to-b from-[#0d174a71] to-[#2038b068] rounded-[42px] h-fit p-10 -md:p-7'>

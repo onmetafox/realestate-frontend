@@ -18,27 +18,27 @@ import useStayModalState from '../../states/stay-modal.states';
 const NavItems = [
     {
         title: 'Wallet Protocol',
-        url: '/',
+        url: '/#section-intro',
         items: []
     },
     {
         title: 'Buy Now',
-        url: '/',
+        url: '/#section-unsiwap',
         items: []
     },
     {
         title: 'Roadmap',
-        url: '/',
+        url: '/#section-roadmap',
         items: []
     },
     {
         title: 'FAQ',
-        url: '/',
+        url: '/#section-faq',
         items: []
     },
     {
         title: 'Contact',
-        url: '/',
+        url: '/#section-contact',
         items: []
     }
 ]

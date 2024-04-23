@@ -12,7 +12,7 @@ import Coin3 from '../../assets/svgs/coin3.svg';
 
 const Section2: React.FC = () => {
 
-    return <div className='pt-20'>
+    return <div id="section-intro" className='pt-20'>
         <div className='z-10 relative'>
             <Typography variant='h1' color='white' className='text-center -xl:text-[32px]'>
                 Introduction to <br /> Three Unique Cryptocurrencies

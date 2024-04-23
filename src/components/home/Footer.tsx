@@ -35,7 +35,7 @@ const Footer: React.FC = () => {
                             Privacy Policy
                         </Typography>
                     </a>
-                    <a href="/">
+                    <a href="/terms-condition">
                         <Typography variant='small' className='text-[#ffffff7c] hover:underline hover:text-[#dfbaf5] transition-all ease-in duration-200' >
                             Terms of Service
                         </Typography>

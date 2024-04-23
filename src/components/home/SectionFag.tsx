@@ -63,7 +63,7 @@ const SectionFag: React.FC = () => {
         setSelIndex( selIndex == index ? -1 : index)
     }
 
-    return <div className='pt-20 max-w-[1200px]'>
+    return <div id="section-faq" className='pt-20 max-w-[1200px]'>
         <div className='z-20 relative  py-3 mx-auto flex flex-row items-end justify-between px-5'>
             <Typography variant='h1' color='white' className='flex-[3] tracking-tighter text-center -md:text-start -md:text-[32px]'>
                 Frequently Asked Questions
