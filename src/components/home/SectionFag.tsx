@@ -11,19 +11,27 @@ import { Typography } from '@material-tailwind/react';
 const FaqList = [
     {
         title: "What is 'E'state Coin?",
-        description: "'E'state Coin is a groundbreaking stable coin uniquely tethered to tangible real estate assets. Each coin represents a direct link to a property, ensuring stability and intrinsic value. This innovative approach redefines traditional notions of real estate ownership by bridging the gap between the physical and digital worlds."
+        description: "'E'state Coin is a groundbreaking stable coin uniquely tethered to tangible real estate assets. Each coin represents a direct link to a property, ensuring stability and intrinsic value based on appraised value. Estate Coin serves as the basis of our platform, which seeks to redefine real estate transactions through digital title transfers and ownership, bridging the gap between physical and digital worlds. Join us in revolutionizing real estate ownership"
     },
     {
-        title: "How does Property Linkage Work?",
-        description: "Property owners can seamlessly link their real estate assets to the 'E'state Coin network, unlocking liquidity by receiving 'E'state Coins in exchange."
+        title: "What is Title Coin?",
+        description: "Title Coin is a cryptocurrency whose supply is based on the number of geographical coordinates on Earth. It is used to map out properties in a universal and accurate format. The platform utilizes Title Coin as a currency for interest payments, fees, and other processing transactions."
     },
+    // {
+    //     title: "How does Property Linkage Work?",
+    //     description: "Property owners can seamlessly link their real estate assets to the 'E'state Coin network, unlocking liquidity by receiving 'E'state Coins in exchange."
+    // },
     {
         title: "Can Investors Buy 'E'state Coins?",
         description: "Absolutely. Investors can confidently acquire 'E'state Coins, each backed by a specific property, ensuring immediate and tangible value."
     },
+    // {
+    //     title: "What is the Purpose of Estate Coin?",
+    //     description: "Estate Coin introduces the concept of fractional ownership of estate-backed securities, offering opportunities for passive income and diversification within the real estate market."
+    // },
     {
-        title: "What is the Purpose of Estate Coin?",
-        description: "Estate Coin introduces the concept of fractional ownership of estate-backed securities, offering opportunities for passive income and diversification within the real estate market."
+        title: "What is Title NFT?",
+        description: "Title NFT is a non-fungible token that stores a digital format of a property title, along with relevant information such as zoning, easements, past owners, and property information, as well as a digital aerial photograph. When a property is bought, sold, or transferred, the NFT is updated and transferred to the wallet of the new owner. This digital format streamlines the process of property transactions and ownership transfer, providing a secure and transparent record of property ownership."
     },
     {
         title: "How Transparent are Transactions?",
@@ -33,9 +41,13 @@ const FaqList = [
         title: "How Secure is the RealEstate Wallet",
         description: "RealEstate Wallet employs cutting-edge security measures, ensuring the protection of assets and secure property transactions."
     },
+    // {
+    //     title: "Can I Participate in Property Transactions?",
+    //     description: "Absolutely. Our platform is designed to empower users, allowing them to actively engage in property transactions and providing a transformative experience in asset ownership."
+    // },
     {
-        title: "Can I Participate in Property Transactions?",
-        description: "Absolutely. Our platform is designed to empower users, allowing them to actively engage in property transactions and providing a transformative experience in asset ownership."
+        title: "When can I purchase Title Coin and 'E'state Coin?",
+        description: "Title Coin is available as of May 2024 via easy buy on our website or uniswap? See instructions. We will be announcing the launch of 'E'state Coin will be launched later this year."
     },
 
 ]
