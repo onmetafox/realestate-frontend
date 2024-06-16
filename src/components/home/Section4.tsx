@@ -20,14 +20,14 @@ const Section4: React.FC = () => {
         <Typography
           variant="h1"
           color="white"
-          className="flex-[3] max-w-[741px] tracking-tighter -xl:text-[32px] "
+          className="flex-[3] max-w-[741px] tracking-tighter -xl:text-[32px] leading-[50px]"
         >
-          Paving the Way to a New Era in Real Estate and Cryptocurrency
+          Paving the Way to a New Era in Real Estate and Cryptocurrency 
         </Typography>
         <Typography
           variant="paragraph"
           color="white"
-          className="flex-1 text-[#ffffff7c]"
+          className="flex-1 text-[#ffffff7c] my-auto leading-[22px]"
         >
           Embark on the journey of 'E'state Coin with our carefully crafted
           roadmap, outlining key milestones on the path to reshaping real estate
@@ -65,13 +65,8 @@ const Section4: React.FC = () => {
               className={clsx("max-w-[298px] z-10 relative -lg:max-w-[260px]")}
             >
               <div className="p-[1px] bg-gradient-to-b from-[#7a7a7b] to-[#646b9e] rounded-full z-10 w-fit mb-2">
-                <div className=" bg-gradient-to-r from-[#252631] to-[#424258] py-2 px-3 rounded-full h-full w-fit">
-                  <Typography
-                    variant="small"
-                    className=" text-[#ffffff7c] text-center"
-                  >
+                <div className=" bg-gradient-to-r from-[#252631] to-[#424258] py-2 px-3 rounded-full h-full w-fit text-[#ffffff7c] text-center text-sm">
                     Q3. 2024
-                  </Typography>
                 </div>
               </div>
               <Typography
@@ -122,16 +117,11 @@ const Section4: React.FC = () => {
             />
             <div className="max-w-[298px] z-10 relative -lg:max-w-[250px] float-right -2md:float-left">
               <div className="p-[1px] bg-gradient-to-b from-[#7a7a7b] to-[#646b9e] rounded-full z-10 w-fit mb-2">
-                <div className=" bg-gradient-to-r from-[#252631] to-[#424258] py-2 px-3 rounded-full h-full w-fit">
-                  <Typography
-                    variant="small"
-                    className=" text-[#ffffff7c] text-center"
-                  >
-                    Q4. 2024
-                  </Typography>
+                <div className=" bg-gradient-to-r from-[#252631] to-[#424258] py-2 px-3 rounded-full h-full w-fit text-[#ffffff7c] text-center text-sm">
+                Q4. 2024
                 </div>
               </div>
-
+             
               <Typography
                 variant="h3"
                 color="white"
@@ -188,13 +178,8 @@ const Section4: React.FC = () => {
               className={clsx(" max-w-[298px] z-10 relative -lg:max-w-[270px]")}
             >
               <div className="p-[1px] bg-gradient-to-b from-[#7a7a7b] to-[#646b9e] rounded-full z-10 w-fit mb-2">
-                <div className=" bg-gradient-to-r from-[#252631] to-[#424258] py-2 px-3 rounded-full h-full w-fit">
-                  <Typography
-                    variant="small"
-                    className=" text-[#ffffff7c] text-center"
-                  >
-                    Q1. 2025
-                  </Typography>
+                <div className=" bg-gradient-to-r from-[#252631] to-[#424258] py-2 px-3 rounded-full h-full w-fit text-[#ffffff7c] text-center text-sm">
+                  Q1. 2025
                 </div>
               </div>
 
@@ -240,13 +225,8 @@ const Section4: React.FC = () => {
             />
             <div className="max-w-[310px] -lg:max-w-[270px] z-10 relative float-none ml-24 -2md:ml-0 -2md:float-left">
               <div className="p-[1px] bg-gradient-to-b from-[#7a7a7b] to-[#646b9e] rounded-full z-10 w-fit mb-2">
-                <div className=" bg-gradient-to-r from-[#252631] to-[#424258] py-2 px-3 rounded-full h-full w-fit">
-                  <Typography
-                    variant="small"
-                    className=" text-[#ffffff7c] text-center"
-                  >
-                    Q2. 2025
-                  </Typography>
+                <div className=" bg-gradient-to-r from-[#252631] to-[#424258] py-2 px-3 rounded-full h-full w-fit text-[#ffffff7c] text-center text-sm">
+                  Q2. 2025
                 </div>
               </div>
 

@@ -88,12 +88,11 @@ const SectionUniswap: React.FC = () => {
               >
                 <div className="p-[1px] bg-gradient-to-b from-[#7a7a7b] to-[#646b9e] rounded-full z-10 w-fit mb-2">
                   <div className=" bg-gradient-to-r from-[#252631] to-[#424258] py-2 px-3 rounded-full h-full w-fit">
-                    <Typography
-                      variant="small"
-                      className=" text-[#ffffff7c] text-center"
+                    <div
+                      className=" text-[#ffffff7c] text-center text-sm"
                     >
                       0{index + 1}
-                    </Typography>
+                    </div>
                   </div>
                 </div>
 

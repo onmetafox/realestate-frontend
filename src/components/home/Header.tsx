@@ -64,19 +64,13 @@ export const Header: React.FC = () => {
                     <img src={LogoSVG} alt={'logo'} draggable={false} className='-xl:w-[250px]' />
                 </a>
             </div>
-            <div className={clsx('z-10 flex flex-row items-center -2md:hidden')}>
+            <div className={clsx('z-10 flex flex-row items-center -2md:hidden pt-5')}>
                 <div className={clsx('flex flex-row gap-4 mr-5')}>
                     {
-                        NavItems.map((_, index) => {
-                            return <div key={'ni_' + index} className={clsx(' ')}>
-                                <a href={_.url} >
-                                    <Typography variant='h4' className={clsx('text-white font-trapReg  hover:font-[700] cursor-pointer transition-all duration-150 ease-in ')}>
-                                        {_.title}
-                                    </Typography>
-                                </a>
-
-                            </div>
-                        })
+                        NavItems.map((_, index) => (
+                            <a href={_.url}  className={clsx('text-white font-trapReg  hover:font-[700] cursor-pointer transition-all duration-150 ease-in text-base')}>
+                                {_.title}
+                            </a>))
                     }
                 </div>
                 <button
@@ -90,10 +84,12 @@ export const Header: React.FC = () => {
                     }
                     onClick={handleOpenStayModal}
                 >
-                    <Typography variant='h4' color='white' className='flex flex-row items-center gap-5'>
-                        Stay tuned!
+                    <div className='flex flex-row items-center gap-5'>
+                        <div className='text-white text-base my-auto'>
+                            Stay tuned!
+                        </div>
                         <img src={ExternalArr} />
-                    </Typography>
+                    </div>
                 </button>
             </div>
             <div className='2md:hidden z-10'>

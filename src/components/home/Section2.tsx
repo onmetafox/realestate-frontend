@@ -32,7 +32,7 @@ const Section2: React.FC = () => {
             "bg-gradient-to-b from-[#79797a] to-[#258260]"
           )}
         >
-          <div className=" bg-gradient-to-br from-[#16554b] to-[#1D1D26] rounded-[24px]  items-center flex flex-col px-12 py-6 h-full">
+          <div className=" bg-gradient-to-br from-[#16554b] to-[#1D1D26] rounded-[24px]  items-center flex flex-col px-12 py-6 h-full transition-opacity duration-300 hover:opacity-80 cursor-pointer">
             <img src={Coin3} />
             <Typography
               variant="h2"
@@ -59,7 +59,7 @@ const Section2: React.FC = () => {
             "bg-gradient-to-b from-[#79797a] to-[#5b6396]"
           )}
         >
-          <div className=" bg-gradient-to-br from-[#2c2e58] to-[#1D1D26] rounded-[24px]  items-center flex flex-col px-12 py-6 h-full">
+          <div className=" bg-gradient-to-br from-[#2c2e58] to-[#1D1D26] rounded-[24px]  items-center flex flex-col px-12 py-6 h-full transition-opacity duration-300 hover:opacity-80 cursor-pointer">
             <img src={Coin1} />
             <Typography
               variant="h2"
@@ -87,7 +87,7 @@ const Section2: React.FC = () => {
             "bg-gradient-to-b from-[#79797a] to-[#4d1674]"
           )}
         >
-          <div className=" bg-gradient-to-br from-[#401c5f] to-[#1D1D26] rounded-[24px]  items-center flex flex-col px-12 py-6 h-full">
+          <div className=" bg-gradient-to-br from-[#401c5f] to-[#1D1D26] rounded-[24px]  items-center flex flex-col px-12 py-6 h-full transition-opacity duration-300 hover:opacity-80 cursor-pointer">
             <img src={Coin2} />
             <Typography
               variant="h2"
